@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
+    flex-grow: 1;
+    margin: 1rem;
+  }
+}
