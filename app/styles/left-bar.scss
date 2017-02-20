@@ -1,0 +1,18 @@
+.left-bar {
+  width: 20%;
+  color: white;
+  background: #17141F;
+
+  &__navlist {
+
+    &--item {
+      display: flex;
+    }
+
+    &--icon {
+      padding: 1rem;
+    }
+
+
+  }
+}
