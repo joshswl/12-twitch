@@ -6,13 +6,23 @@
   &__navlist {
 
     &--item {
+      padding: 0.5rem;
       display: flex;
     }
 
     &--icon {
-      padding: 1rem;
+      margin: 0rem 1rem;
     }
 
+    &--text {
+      margin: 0;
+    }
+  }
 
+  &__prime {
+
+    &--title {
+      text-transform: uppercase;
+    }
   }
 }
