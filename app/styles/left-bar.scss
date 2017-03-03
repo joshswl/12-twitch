@@ -54,6 +54,24 @@
   &__recommended {
     padding: 1rem;
   }
+
+  &__more {
+
+    &--columns {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+
+    &--actual {
+      padding: 0.5rem 1.5rem;
+      background: #7D5BBE;
+    }
+  }
 }
 
 .title {
