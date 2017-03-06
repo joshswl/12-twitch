@@ -21,7 +21,8 @@
       display: flex;
       width: 95%;
       padding: 0.4rem;
-      border: 1px solid #7D5BBE;
+      background: #201C2B;
+      border: 1px solid #392E5C;
     }
 
     &--icon {
@@ -36,6 +37,7 @@
   }
 
   &__navlist {
+    font-size: 14px;
 
     &--item {
       padding: 0.5rem;
@@ -59,7 +61,16 @@
 
     &--columns {
       display: flex;
-      justify-content: space-between;
+      font-size: 12px;
+      color: #898395;
+    }
+
+    &--list {
+      padding-right: 5rem;
+
+      &__items {
+        padding: 0.25rem 0rem;
+      }
     }
   }
 
@@ -67,7 +78,7 @@
     display: flex;
 
     &--actual {
-      margin: 1rem;
+      margin: 0.3rem;
       padding: 0.5rem 1.5rem;
       background: #6441A4;
       font-size: 12px;
@@ -77,15 +88,17 @@
 
 .title {
   padding-bottom: 0.25rem;
-  border-bottom: 0.25px solid #7D5BBE;
+  border-bottom: 1px solid #2C2541;
   text-transform: uppercase;
+  font-size: 12px;
+  color: #C7C4CC;
 }
 
 .item {
   display: flex;
 
   &__image {
-    width: 2rem;
+    width: 3rem;
     border-radius: 0.2rem;
   }
 
@@ -95,11 +108,12 @@
     padding: 0.25rem;
 
     &--large {
-
+      font-size: 14px;
     }
 
     &--small {
-
+      font-size: 12px;
+      color: #898395;
     }
   }
 }
