@@ -35,8 +35,8 @@
     }
 
     &--text {
-      padding: 0rem 1rem;
-      border: none;
+      padding: 0 1rem;
+      border: 0;
       background: transparent;
     }
   }
@@ -50,7 +50,7 @@
     }
 
     &--icon {
-      margin: 0rem 1rem;
+      margin: 0 1rem;
     }
 
     &--text {
@@ -59,11 +59,11 @@
   }
 
   &__mid-container {
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 0;
   }
 
   &__more {
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 0;
 
     &--columns {
       display: flex;
@@ -75,7 +75,7 @@
       padding-right: 4rem;
 
       &__items {
-        padding: 0.25rem 0rem;
+        padding: 0.25rem 0;
       }
     }
   }
