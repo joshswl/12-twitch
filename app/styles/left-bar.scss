@@ -1,9 +1,14 @@
 .left-bar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
   width: 15rem;
   height: 100vh;
   padding: 1rem;
   background: #17141F;
   color: white;
+  overflow: scroll;
+
 
   &__logo {
     text-align: center;
