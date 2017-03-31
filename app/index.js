@@ -1,6 +1,13 @@
 import 'whatwg-fetch';
-// Import `data.json`
-// Import `addGamesToList` from `twitch/add-games-to-list`
+import createGameElement from './twitch/create-game-element';
+import gameList from './data';
 
-// Look up a `ul` element with a class called `results`
-// Add games to the results list based on the data from `data.json`
+const grid = document.querySelector('.grid');
+
+grid.innerHTML = '';
+
+gameList.top.forEach((game) => {
+  const gameElement = createGameElement(game);
+
+  grid.appendChild(gameElement);
+});
