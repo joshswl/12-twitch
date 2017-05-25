@@ -1,0 +1,45 @@
+.section {
+  height: 100vh;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.container {
+  // width: 55rem;
+  margin: auto;
+  overflow: scroll;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
+    margin: 0.25rem;
+  }
+}
+
+.results-heading {
+  padding: 0 1rem;
+  color: #433F4A;
+  font-weight: normal;
+}
+
+.game {
+
+  > * + * {
+    margin: 0.25rem auto;
+  }
+
+  &__name {
+    margin: 0.3rem 0;
+    font-weight: normal;
+  }
+
+  &__popularity {
+    margin: 0.3rem 0;
+    color: #726C7E;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,41 @@
+.right-bar {
+  top: 0;
+  right: 0;
+  min-width: 25rem;
+  max-width: 30rem;
+  height: 100vh;
+  padding: 1rem;
+  background: #EFEEF1;
+  font-size: 0.9rem;
+  overflow: scroll;
+
+  &__title {
+    padding: 0.5rem;
+    font-weight: normal;
+  }
+
+  &__info {
+    padding: 0.5rem;
+  }
+
+  &__list {
+
+    &--item {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      border-left: #6441A4 0.2rem solid;
+      background: white;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+
+    &--actual {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      background: #6441A4;
+      color: white;
+    }
+  }
+}
